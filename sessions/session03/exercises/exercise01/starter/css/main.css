@@ -1,0 +1,41 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+header,
+footer {
+  background-color: rgb(84, 120, 193);
+  color: white;
+}
+
+section {
+  background-color: rgba(210, 223, 251, 0.8);
+  color: rgb(73, 105, 169);
+}
+
+section:first-child:hover,
+article:hover {
+  background-color: rgb(10, 15, 24);
+  color: white;
+}
+
+a {
+  color: inherit;
+}
+
+a:active {
+  color: black;
+}
+
+span {
+  font-weight: bold;
+}
+
+article:last-child > p {
+  font-style: italic;
+}

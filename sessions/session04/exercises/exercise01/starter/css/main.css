@@ -1,0 +1,50 @@
+:root {
+  --primary-color: #dbcf5c;
+}
+
+html {
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Cabecera */
+header {
+  padding: 1.5rem 0;
+  text-align: center;
+  border-top: 0.3rem solid #333333;
+}
+
+/* Contenedores con efecto parallax */
+.parallax {
+  background-image: url('../img/olive-oil_1920.webp');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 20vh;
+}
+
+/* Secciones de texto */
+section {
+  background-color: #f9f7f0;
+  padding: 2.5rem 1.5rem;
+}
+
+section h3 {
+  margin-bottom: 0.8rem;
+}
+
+section p {
+  line-height: 1.8;
+}

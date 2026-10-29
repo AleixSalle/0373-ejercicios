@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ejercicio</title>
+    <style>
+      :root {
+        --bg-dark-color: rgb(58, 66, 73);
+        --bg-dark-text-color: white;
+      }
+
+      *, *::after, *::before {
+        box-sizing: border-box;
+      }
+
+      html {
+        font-size: 1.1rem;
+      }
+
+      ul {
+        padding: 0 1rem;
+        list-style: none;
+      }
+
+      .card {
+        border: 1px solid rgb(230, 230, 230);
+        background: rgb(241, 241, 241);
+        padding: 1.5rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .text-center {
+        display: block;
+        text-align: center;
+      }
+
+      #header {
+        background-color: var(--bg-dark-color);
+        color: var(--bg-dark-text-color);
+        padding: 2rem;
+        margin-bottom: 0.5rem;
+      }
+
+      #wrapper {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-column-gap: 1rem;
+      }
+
+      #main {
+        grid-column: 1 / span 2;
+      }
+
+      #footer {
+        background-color: var(--bg-dark-color);
+        color: var(--bg-dark-text-color);
+        padding: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Cabecera -->
+    <header id="header">
+      <h1>Mi sitio web</h1>
+      <p>Este es un sitio web de ejemplo</p>
+    </header>
+
+    <div id="wrapper">
+      <!-- Contenido principal (izquierda) -->
+      <main id="main">
+        <!-- Sección de bienvenida -->
+        <section id="welcome" class="card">
+          <h2>¡Bienvenido!</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore ut assumenda quasi sunt. Provident iure quas asperiores maxime eaque minus officiis inventore repellendus quae neque, perferendis ea, libero exercitationem labore necessitatibus sapiente porro odio incidunt minima eveniet qui debitis temporibus!</p>
+          <a href="#" class="text-center">Haz clic para ver más</a>
+          <p>Assumenda nostrum eos quo eveniet aliquam consequuntur, eaque vero reiciendis ducimus exercitationem asperiores ipsa hic ab corrupti, cupiditate explicabo culpa rerum. Dicta aliquid harum tempore hic debitis, aspernatur aut fuga accusantium deserunt asperiores ab? Provident amet nisi modi magni minus animi sint aliquam esse eius, a ullam nostrum aut voluptatum quisquam blanditiis? Ducimus obcaecati ipsum vel accusantium necessitatibus adipisci ullam.</p>
+        </section>
+        <!-- Sección del blog -->
+        <section id="blog">
+          <h2>Mi blog</h2>
+          <!-- Artículo uno -->
+          <article class="article">
+            <h3>Artículo uno</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor ea corporis quisquam natus. Id, culpa facere nisi iste architecto doloribus asperiores sint distinctio similique cum?
+            </p>
+          </article>
+          <!-- Artículo dos -->
+          <article class="article">
+            <h3>Artículo dos</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae deserunt blanditiis impedit autem aliquam hic ullam, ratione dicta? Reiciendis magni velit reprehenderit minima, nesciunt repellendus!
+            </p>
+          </article>
+        </section>
+      </main>
+
+      <!-- Barra lateral (derecha) -->
+      <aside id="sidebar" class="card">
+        <h3>Navegación</h3>
+        <!-- Navegación -->
+        <nav>
+          <ul id="nav">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Sobre nosotros</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+          </ul>
+        </nav>
+        <hr />
+        <h3>Contáctanos</h3>
+        <ul>
+          <li><strong>Dirección:</strong> C/ Falsa 123</li>
+          <li><strong>Teléfono:</strong> 666 66 66 66</li>
+          <li><strong>Correo:</strong> fake@fakeweb.com</li>
+        </ul>
+      </aside>
+    </div>
+
+    <!-- Pie de página -->
+    <footer id="footer">
+      <p class="text-center">Copyright &copy; Mi sitio web (año)</p>
+    </footer>
+  </body>
+</html>

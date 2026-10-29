@@ -1,0 +1,6 @@
+# Sesiones 05 en adelante: de momento solo se suben los enunciados (README.md).
+# Los resultados se subirán cuando se indique.
+/sessions/session0[5-9]/**
+/sessions/session1[0-9]/**
+!/sessions/session*/**/
+!/sessions/session*/**/README.md
