@@ -4,3 +4,6 @@
 /sessions/session1[0-9]/**
 !/sessions/session*/**/
 !/sessions/session*/**/README.md
+
+# Sesiones cuyos resultados ya se han subido
+!/sessions/session05/**
