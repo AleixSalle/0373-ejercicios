@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.grid-item {
+  background-color: lightsalmon;
+  padding: 3rem;
+}
+.sub-item {
+  background-color: rgb(253, 213, 197);
+  padding: 1rem;
+}
+
+/* Fase 2 - Grid principal */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 5px;
+}
+.item-1,
+.item-5 {
+  grid-column: 1 / span 3;
+}
+
+/* Fase 1 - Subgrid */
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  grid-gap: 1rem;
+}
